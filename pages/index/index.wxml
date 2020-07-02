@@ -1,0 +1,28 @@
+<view>
+  <canvas id="canvas" class="myCanvas" canvas-id="myCanvas" bindtouchstart="touchtop" bindtouchmove="movetop" bindtouchend="endtop"></canvas>
+</view>
+
+<view class="change_key_direction">
+  <button bindtap="goUp" class="key_img_up">
+    <image src="../image/key.png"></image>
+  </button>
+  
+  <view class="middle_key">
+    <button bindtap="goLeft" class="key_img_left">
+      <image src="../image/key.png"></image>
+    </button>
+
+    <button bindtap="stop" class="key_img_stop">
+      <image src="../image/stop.png"></image>
+    </button>
+
+    <button bindtap="goRight" class="key_img_right">
+      <image src="../image/key.png"></image>
+    </button>
+  </view>
+
+  <button bindtap="goDown" class="key_img_down">
+      <image src="../image/key.png"></image>
+  </button>
+</view>
+

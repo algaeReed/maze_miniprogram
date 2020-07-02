@@ -1,0 +1,77 @@
+/**index.wxss**/
+page{
+			width:750rpx;   /*宽度*/
+			height:100px;	/*高度*/
+      background-color: #8EC5FC;
+      background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+		}
+
+.myCanvas{
+			width:600rpx;
+			height:600rpx;
+      
+			/* background:rgb(158, 192, 139); */
+			background-image: url('https://i.loli.net/2020/07/01/wZg2A4pRBLmvbeT.jpg');
+			/* background-image: url('https://i.loli.net/2020/07/02/tqZgNIBY3blSWDx.jpg'); */
+      background-size:600rpx 600rpx;
+      margin:0  auto;
+      margin-top:10rpx;
+      border-radius: 9px;
+	}
+
+
+.change_key_direction{
+	background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+	/* text-align: center; */
+	position: absolute;
+	bottom: 100px;
+
+	width: 100%;
+	height: 154px;
+}
+image{
+  width: 18px;
+  height: 18px;
+  margin-left: -20rpx;
+  margin-bottom: 20rpx;
+}
+
+button{
+  width: 10rpx;
+  height: 70rpx;
+  border:none;
+}
+
+.key_img_left,.key_img_stop,.key_img_right{
+  display: inline-block;
+}
+.key_img_down{
+  transform: rotate(180deg)
+}
+.key_img_left{
+  transform: rotate(-90deg);
+}
+.key_img_right{
+   transform: rotate(90deg)
+}
+.key_img_stop{
+  transform: rotate(180deg)
+}
+
+.middle_key image{
+  display: inline-block
+}
+
+.middle_key{
+  width: 100%;
+  height: 88px;
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
